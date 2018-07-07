@@ -1,2 +1,2 @@
 # PDF2PNG
-Convert a Pdf to Png
+convert Pdf to png

@@ -1,0 +1,11 @@
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\bin\Debug\Pdf2Png.dll
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\bin\Debug\Pdf2Png.pdb
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\bin\Debug\Ghostscript.NET.dll
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\bin\Debug\itextsharp.dll
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\bin\Debug\Ghostscript.NET.xml
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\bin\Debug\itextsharp.xml
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\obj\Debug\Pdf2Png.csprojResolveAssemblyReference.cache
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\obj\Debug\Pdf2Png.csproj.CoreCompileInputs.cache
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\obj\Debug\Pdf2Png.csproj.CopyComplete
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\obj\Debug\Pdf2Png.dll
+C:\Users\Z003WTCE\source\repos\ConvertPdf2Png\Pdf2Png\obj\Debug\Pdf2Png.pdb
