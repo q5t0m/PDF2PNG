@@ -12,6 +12,7 @@ To use it in ASP.NET Framework 4.7.1:
 Converting.PDF2PNG(string Path, int Dpi, int HeightResolution, int WidthResolution, HttpPostedFileBase PdfFile)
 
 HttpPostedFileBase is what you use in 4.7.1
+
 ---------------------------------------------------------------------------------------------------------------
 
 To use it in ASP.NET Core 2.0:
@@ -22,11 +23,12 @@ And you have to convert it to a stream:
 
 var filePath = Path.GetTempFileName();
 
-                        using (var stream = new FileStream(filePath, FileMode.Create))
-                        {
-                            await file.CopyToAsync(stream);
-                            Converting.Pdf2Png(folder, fileNameWithoutExt , 300, 1280, 720, stream);                            
-                        } 
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await file.CopyToAsync(stream);
+                        Converting.Pdf2Png(folder, fileNameWithoutExt , 300, 1280, 720, stream);                            
+                    } 
+                        
 ----------------------------------------------------------------------------------------------------------------
 
 It will convert Pdf-file to png-files and thumbnails in that folder you choice.
