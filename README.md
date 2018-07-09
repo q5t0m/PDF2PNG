@@ -22,13 +22,12 @@ In Core you use IFormFile.
 And you have to convert it to a stream:
 
 var filePath = Path.GetTempFileName();
+using (var stream = new FileStream(filePath, FileMode.Create))
+{
+    await file.CopyToAsync(stream);
+    Converting.Pdf2Png(folder, fileNameWithoutExt , 300, 1280, 720, stream);
+}
 
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await file.CopyToAsync(stream);
-                        Converting.Pdf2Png(folder, fileNameWithoutExt , 300, 1280, 720, stream);                            
-                    } 
-                        
 ----------------------------------------------------------------------------------------------------------------
 
 It will convert Pdf-file to png-files and thumbnails in that folder you choice.
