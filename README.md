@@ -21,7 +21,9 @@ Converting.PDF2PNG(string Path, int Dpi, int HeightResolution, int WidthResoluti
 In Core you use IFormFile.
 And you have to convert it to a stream:
 
+
 var filePath = Path.GetTempFileName();
+
 using (var stream = new FileStream(filePath, FileMode.Create))
 {
     await file.CopyToAsync(stream);
