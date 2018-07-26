@@ -1,5 +1,8 @@
 # PDF2PNG
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c9a3648f84b8484aa421639b30097a64)](https://app.codacy.com/app/strom.nicklas/PDF2PNG?utm_source=github.com&utm_medium=referral&utm_content=q5t0m/PDF2PNG&utm_campaign=badger)
+
+
 Class Library Core 2.0
 You can use this both with ASP.NET Framework 4.7.1 and ASP.NET Core 2.0
 A project i work with i needed to convert a PDF to PNG's.
